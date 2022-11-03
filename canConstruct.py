@@ -38,4 +38,4 @@ def canConstruct(targetString, strings, checked=None):
 print(canConstruct("abcdef", ["ab", "abc", "cd", "def", "abcd"]))  # true
 print(canConstruct("skateboard", ["bo", "rd", "ate", "t", "ska", "sk", "boar"]))  # false
 print(canConstruct("enterapotentpot", ["a", "p", "ent", "enter", "ot", "o", "t"]))  # true
-print(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e", "ee", "eee", "eeee", "eeeee", "eeeeee", "eeeeee", "f"]))  # false
+print(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e", "ee", "eee", "eeee", "eeeee", "eeeeee", "eeeeee", "f"]))  # true
